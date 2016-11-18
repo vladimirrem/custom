@@ -1,0 +1,9 @@
+name: 'View custom'
+type: module
+core: 8.x
+dependencies:
+  - node
+  - taxonomy
+  - text
+  - user
+  - views
