@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.link_soc
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.link_soc.body
+field_name: body
+entity_type: block_content
+bundle: link_soc
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

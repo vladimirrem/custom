@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.link_soc
+    - field.field.block_content.link_soc.body
+  module:
+    - text
+id: block_content.link_soc.default
+targetEntityType: block_content
+bundle: link_soc
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

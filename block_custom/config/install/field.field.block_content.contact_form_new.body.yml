@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_form_new
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.contact_form_new.body
+field_name: body
+entity_type: block_content
+bundle: contact_form_new
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
