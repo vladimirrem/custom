@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contacts.body
+    - node.type.contacts
+  module:
+    - text
+    - user
+id: node.contacts.default
+targetEntityType: node
+bundle: contacts
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
