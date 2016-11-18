@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_forn
+    - field.storage.contact_message.field_other_e_mail
+  module:
+    - link
+id: contact_message.contact_forn.field_other_e_mail
+field_name: field_other_e_mail
+entity_type: contact_message
+bundle: contact_forn
+label: 'Other e-mail'
+description: 'Type here secondary e-mail to contact'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_forn
+    - field.field.contact_message.contact_forn.field_other_e_mail
+  module:
+    - link
+id: contact_message.contact_forn.default
+targetEntityType: contact_message
+bundle: contact_forn
+mode: default
+content:
+  copy:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+  field_other_e_mail:
+    weight: 51
+    settings:
+      placeholder_url: example@mail.com
+      placeholder_title: asd
+    third_party_settings: {  }
+    type: link_default
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: -10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  mail: true
+  name: true

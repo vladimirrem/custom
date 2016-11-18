@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf
+    - field.field.block_content.pdf.field_pdf
+  module:
+    - file
+id: block_content.pdf.default
+targetEntityType: block_content
+bundle: pdf
+mode: default
+content:
+  field_pdf:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+hidden: {  }

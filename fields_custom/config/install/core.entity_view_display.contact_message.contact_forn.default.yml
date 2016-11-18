@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_forn
+    - field.field.contact_message.contact_forn.field_other_e_mail
+  module:
+    - link
+id: contact_message.contact_forn.default
+targetEntityType: contact_message
+bundle: contact_forn
+mode: default
+content:
+  field_other_e_mail:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  message:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

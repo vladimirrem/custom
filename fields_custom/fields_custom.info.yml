@@ -1,0 +1,11 @@
+name: 'Fields custom'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - field
+  - file
+  - image
+  - link
+  - telephone
+  - user
